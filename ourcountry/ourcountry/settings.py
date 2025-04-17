@@ -2,6 +2,7 @@ from datetime import timedelta
 from pathlib import Path
 import os
 from dotenv import load_dotenv
+import dj_database_url
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -9,22 +10,13 @@ load_dotenv()
 SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    '13.53.193.236',
-    'sitetrevel.online',
-    'api.sitetrevel.online',
-    'localhost',
-    '127.0.0.1',
-    '0.0.0.0',
-
-]
+ALLOWED_HOSTS = ["*"]
 
 USE_X_FORWARDED_HOST = True
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 
 INSTALLED_APPS = [
-    'django_extensions',
     'jazzmin',
     'modeltranslation',
     'django.contrib.admin',
@@ -87,6 +79,9 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+DATABASES["default"] = dj_database_url.parse("postgresql://postgres_p9n6_user:vUGizEIsSNLjHA32AxwT46dZvn6cPlxO@dpg-d00b9c2li9vc739nq5dg-a.singapore-postgres.render.com/postgres_p9n6")
+
 
 AUTH_PASSWORD_VALIDATORS = [
     {
