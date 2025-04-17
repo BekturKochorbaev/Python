@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <!-- PropertyFinder -->
+    <property_finder>
+        <file>sample_data.xml</file>
+    </property_finder>
+
+    <!-- Region_Categoty -->
+    <region_category>
+        <region_category>Chui</region_category>
+    </region_category>
+
+    <!-- Region -->
+    <region>
+        <region_name>Bishkek</region_name>
+        <region_image>region_images/bishkek.jpg</region_image>
+        <region_description>Столица Кыргызстана, культурный и экономический центр.</region_description>
+        <region_category>Chui</region_category>
+        <longitude>74.5698</longitude>
+        <latitude>42.8746</latitude>
+    </region>
+
+    <!-- Home -->
+    <home>
+        <home_name>Добро пожаловать в Кыргызстан</home_name>
+        <home_image>home_images/welcome.jpg</home_image>
+        <home_description>Исследуйте красоты Кыргызстана с нами!</home_description>
+    </home>
+
+    <!-- PopularPlaces -->
+    <popular_place>
+        <popular_name>Площадь Ала-Тоо</popular_name>
+        <popular_image>popular_images/ala_too.jpg</popular_image>
+        <description>Главная площадь в центре Бишкека.</description>
+        <region>Bishkek</region>
+        <longitude>74.5698</longitude>
+        <latitude>42.8746</latitude>
+        <address>Центр Бишкека</address>
+    </popular_place>
+
+    <!-- Attractions -->
+    <attraction>
+        <attraction_name>Национальный музей</attraction_name>
+        <description>Музей истории и культуры Кыргызстана.</description>
+        <region_category>Chui</region_category>
+        <popular_place>Площадь Ала-Тоо</popular_place>
+        <main_image>main_image/museum.jpg</main_image>
+        <type_attraction>Museum</type_attraction>
+    </attraction>
+
+    <!-- AttractionsImage -->
+    <attraction_image>
+        <attraction>Национальный музей</attraction>
+        <image>attraction_images/museum_interior.jpg</image>
+    </attraction_image>
+
+    <!-- ToTry -->
+    <to_try>
+        <region>Bishkek</region>
+        <to_name>Бешбармак</to_name>
+        <first_description>Национальное блюдо из мяса и лапши.</first_description>
+        <second_description>Подаётся с бульоном и специями.</second_description>
+        <image>to_try_image/beshbarmak.jpg</image>
+    </to_try>
+
+    <!-- Hotels -->
+    <hotel>
+        <name>Отель Азия</name>
+        <description>Комфортабельный отель в центре Бишкека.</description>
+        <main_image>main_image/hotel_asia.jpg</main_image>
+        <region>Chui</region>
+        <popular_place>Площадь Ала-Тоо</popular_place>
+        <address>ул. Ленина, 123</address>
+        <bedroom>2</bedroom>
+        <bathroom>1</bathroom>
+        <cars>1</cars>
+        <bikes>2</bikes>
+        <pets>0</pets>
+        <price_short_period>5000</price_short_period>
+        <price_medium_period>4500</price_medium_period>
+        <price_long_period>4000</price_long_period>
+        <longitude>74.5700</longitude>
+        <latitude>42.8748</latitude>
+        <contact>123456789</contact>
+    </hotel>
+
+    <!-- Amenities -->
+    <amenity>
+        <hotel>Отель Азия</hotel>
+        <amenity>Wi-Fi</amenity>
+        <icon>icons/wifi.png</icon>
+    </amenity>
+
+    <!-- SafetyAndHygiene -->
+    <safety_and_hygiene>
+        <hotel>Отель Азия</hotel>
+        <name>Регулярная дезинфекция</name>
+    </safety_and_hygiene>
+
+    <!-- HotelsImage -->
+    <hotel_image>
+        <hotel>Отель Азия</hotel>
+        <image>hotel_images/room.jpg</image>
+    </hotel_image>
+
+   <!-- Kitchen -->
+    <kitchen>
+        <kitchen_name>Кафе Нават</kitchen_name>
+        <description>Традиционная кыргызская кухня.</description>
+        <main_image>main_image/navat.jpg</main_image>
+        <kitchen_region>Chui</kitchen_region>
+        <popular_places>Площадь Ала-Тоо</popular_places>
+        <price>1000</price>
+        <specialized_menu>Подходит для вегетарианцев</specialized_menu>
+        <meal_time>Breakfast,Lunch,Dinner</meal_time>
+        <type_of_cafe>Asian</type_of_cafe>
+    </kitchen>
+
+    <!-- KitchenLocation -->
+    <kitchen_location>
+        <kitchen>Кафе Нават</kitchen>
+        <address>ул. Советская, 45</address>
+        <website>https://navat.kg</website>
+        <email>info@navat.kg</email>
+        <phone_number>+996123456789</phone_number>
+        <longitude>74.5699</longitude>
+        <latitude>42.8747</latitude>
+    </kitchen_location>
+
+    <!-- KitchenImage -->
+    <kitchen_image>
+        <kitchen>Кафе Нават</kitchen>
+        <image>kitchen_images/interior.jpg</image>
+    </kitchen_image>
+
+    <!-- EventCategories -->
+    <event_category>
+        <category>Concert</category>
+    </event_category>
+
+    <!-- Event -->
+    <event>
+        <category>Concert</category>
+        <image>event_images/concert.jpg</image>
+        <popular_places>Площадь Ала-Тоо</popular_places>
+        <title>Концерт народной музыки</title>
+        <date>2025-05-01</date>
+        <time>18:00:00</time>
+        <address>Площадь Ала-Тоо</address>
+        <price>500</price>
+        <ticket>true</ticket>
+    </event>
+
+    <!-- Ticket -->
+    <ticket>
+        <concert>Concert</concert>
+        <image>event_images/ticket.jpg</image>
+        <title>Билет на концерт</title>
+        <date>2025-05-01</date>
+        <time>18:00:00</time>
+        <address>Площадь Ала-Тоо</address>
+        <price>500</price>
+    </ticket>
+
+    <!-- CultureCategory -->
+    <culture_category>
+        <culture_name>National clothes</culture_name>
+    </culture_category>
+
+    <!-- Culture -->
+    <culture>
+        <culture_name>Кыргызская национальная одежда</culture_name>
+        <culture_description>Традиционные костюмы, такие как чапан.</culture_description>
+        <culture_image>culture_images/chapan.jpg</culture_image>
+        <culture>National clothes</culture>
+    </culture>
+
+    <!-- Games -->
+    <game>
+        <games_name>Кок-бору</games_name>
+        <games_description>Традиционная конная игра.</games_description>
+        <games_image>games_images/kok_boru.jpg</games_image>
+        <culture>Games</culture>
+    </game>
+
+    <!-- NationalClothes -->
+    <national_clothes>
+        <clothes_name>Чапан</clothes_name>
+        <clothes_description>Традиционный кыргызский халат.</clothes_description>
+        <clothes_image>clothes_images/chapan.jpg</clothes_image>
+        <culture>National clothes</culture>
+    </national_clothes>
+
+    <!-- HandCrafts -->
+    <hand_craft>
+        <hand_name>Шырдак</hand_name>
+        <hand_description>Традиционный кыргызский войлочный ковёр.</hand_description>
+        <hand_image>hand_images/shyrdak.jpg</hand_image>
+        <culture>Hand crafts</culture>
+    </hand_craft>
+
+    <!-- Currency -->
+    <currency>
+        <currency_name>Кыргызский сом</currency_name>
+        <culture>Currency</culture>
+    </currency>
+
+    <!-- Currency_Description -->
+    <currency_description>
+        <currency>Кыргызский сом</currency>
+        <description>Официальная валюта Кыргызстана с 1993 года.</description>
+    </currency_description>
+
+    <!-- Currency_Image -->
+    <currency_image>
+        <currency>Кыргызский сом</currency>
+        <front_image>front_image_currency/som_front.jpg</front_image>
+        <back_image>back_image_currency/som_back.jpg</back_image>
+    </currency_image>
+
+    <!-- NationalInstruments -->
+    <national_instrument>
+        <national_name>Комыз</national_name>
+        <national_description>Традиционный струнный инструмент.</national_description>
+        <national_image>national_images/komyz.jpg</national_image>
+        <culture>National instruments</culture>
+    </national_instrument>
+
+    <!-- CultureKitchen -->
+    <culture_kitchen>
+        <kitchen_name>Курут</kitchen_name>
+        <kitchen_description>Сушёные сырные шарики.</kitchen_description>
+        <culture>Kitchen</culture>
+    </culture_kitchen>
+
+    <!-- CultureKitchenImage -->
+    <culture_kitchen_image>
+        <culture_kitchen>Курут</culture_kitchen>
+        <image>culture_kitchen_image/kurut.jpg</image>
+    </culture_kitchen_image>
+
+    <!-- CultureKitchenMain -->
+    <culture_kitchen_main>
+        <title>Кыргызская кухня</title>
+        <description>Кыргызская кухня богата мясными блюдами и молочными продуктами.</description>
+        <culture>Kitchen</culture>
+        <image_1>culture_kitchen_image/dish1.jpg</image_1>
+        <image_2>culture_kitchen_image/dish2.jpg</image_2>
+        <image_3>culture_kitchen_image/dish3.jpg</image_3>
+        <image_4>culture_kitchen_image/dish4.jpg</image_4>
+    </culture_kitchen_main>
+
+    <!-- AirLineTickets -->
+    <airline_ticket>
+        <logo>airline_logos/kyrgyz_air.jpg</logo>
+        <name>Кыргыз Эйр</name>
+        <description>Национальная авиакомпания Кыргызстана.</description>
+        <website>https://kyrgyzair.kg</website>
+    </airline_ticket>
+
+    <!-- AirLineDirections -->
+    <airline_direction>
+        <ticket>Кыргыз Эйр</ticket>
+        <directions>Бишкек - Стамбул</directions>
+    </airline_direction>
+
+    <!-- Favorite -->
+    <favorite>
+        <user>user1</user>
+        <attraction>Национальный музей</attraction>
+        <like>true</like>
+        <created_date>2025-04-16</created_date>
+    </favorite>
+</data>
