@@ -82,7 +82,7 @@ DATABASES = {
     }
 }
 
-DATABASES["default"] = dj_database_url.parse("postgresql://postgres_p9n6_user:vUGizEIsSNLjHA32AxwT46dZvn6cPlxO@dpg-d00b9c2li9vc739nq5dg-a.singapore-postgres.render.com/postgres_p9n6")
+# DATABASES["default"] = dj_database_url.parse("postgresql://postgres_p9n6_user:vUGizEIsSNLjHA32AxwT46dZvn6cPlxO@dpg-d00b9c2li9vc739nq5dg-a.singapore-postgres.render.com/postgres_p9n6")
 
 
 AUTH_PASSWORD_VALIDATORS = [

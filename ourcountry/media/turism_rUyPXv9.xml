@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <!-- PropertyFinder -->
+    <property_finder>
+        <file>sample_data.xml</file>
+    </property_finder>
+
+    <!-- Region_Categoty -->
+    <region_category>
+        <region_category>Chui</region_category>
+    </region_category>
+
+  
+
+    <!-- ToTry -->
+    <to_try>
+        <region>Бишкек</region>
+        <to_name_ru>Бешбармак</to_name_ru>
+        <to_name_en>Beshbarmak</to_name_en>
+        <to_name_ar>بيشبارماك</to_name_ar>
+        <first_description_ru>Бешбармак — национальное блюдо Кыргызстана, представляющее собой сочетание нежного мяса (обычно баранины или говядины) и домашней лапши. Это блюдо символизирует гостеприимство и часто подаётся на праздниках, собирая семью и друзей за общим столом.</first_description_ru>
+        <first_description_en>Beshbarmak is Kyrgyzstan’s national dish, combining tender meat (usually lamb or beef) with homemade noodles. This dish symbolizes hospitality and is often served at celebrations, bringing family and friends together around the table.</first_description_en>
+        <first_description_ar>بيشبارماك هو الطبق الوطني لقيرغيزستان، ويجمع بين اللحم الطري (عادة لحم الضأن أو البقر) والمعكرونة المصنوعة يدويًا. يرمز هذا الطبق إلى الضيافة وغالبًا ما يُقدم في الاحتفالات، حيث يجمع العائلة والأصدقاء حول المائدة.</first_description_ar>
+        <second_description_ru>Бешбармак подаётся с ароматным бульоном и специями, которые подчёркивают вкус блюда. Традиционно его едят руками, что добавляет аутентичности и позволяет почувствовать связь с кыргызской культурой.</second_description_ru>
+        <second_description_en>Beshbarmak is served with a fragrant broth and spices that enhance its flavor. Traditionally eaten by hand, it adds authenticity and connects diners to Kyrgyz culture.</second_description_en>
+        <second_description_ar>يُقدم بيشبارماك مع مرق عطري وتوابل تعزز نكهته. يؤكل تقليديًا باليد، مما يضيف الأصالة ويربط الضيوف بالثقافة القيرغيزية.</second_description_ar>
+        <image>to_try_image/beshbarmak.jpg</image>
+    </to_try>
+
+    <!-- Hotels -->
+    <hotel>
+        <name_ru>Отель Азия</name_ru>
+        <name_en>Asia Hotel</name_en>
+        <name_ar>فندق آسيا</name_ar>
+        <description_ru>Отель Азия — это комфортабельный отель в центре Бишкека, предлагающий современные удобства и высокий уровень сервиса. Гостей ждут просторные номера, ресторан с местной и международной кухней, а также близость к ключевым достопримечательностям, таким как Площадь Ала-Тоо. Идеально подходит для туристов и деловых путешественников.</description_ru>
+        <description_en>Asia Hotel is a comfortable hotel in the heart of Bishkek, offering modern amenities and high-quality service. Guests can enjoy spacious rooms, a restaurant serving local and international cuisine, and proximity to key attractions like Ala-Too Square. Perfect for tourists and business travelers.</description_en>
+        <description_ar>فندق آسيا هو فندق مريح في قلب بيشكيك، يقدم وسائل راحة حديثة وخدمة عالية الجودة. يمكن للضيوف الاستمتاع بغرف واسعة، ومطعم يقدم المأكولات المحلية والعالمية، وقربه من المعالم الرئيسية مثل ساحة آلا-تو. مثالي للسياح والمسافرين بغرض الأعمال.</description_ar>
+        <address_ru>ул. Ленина, 123</address_ru>
+        <address_en>Lenin St, 123</address_en>
+        <address_ar>شارع لينين، 123</address_ar>
+        <main_image>main_image/hotel_asia.jpg</main_image>
+        <region>Chui</region>
+        <popular_place>Площадь Ала-Тоо</popular_place>
+        <bedroom>2</bedroom>
+        <bathroom>1</bathroom>
+        <cars>1</cars>
+        <bikes>2</bikes>
+        <pets>0</pets>
+        <price_short_period>5000</price_short_period>
+        <price_medium_period>4500</price_medium_period>
+        <price_long_period>4000</price_long_period>
+        <longitude>74.5700</longitude>
+        <latitude>42.8748</latitude>
+        <contact>123456789</contact>
+    </hotel>
+
+    <!-- Amenities -->
+    <amenity>
+        <hotel>Отель Азия</hotel>
+        <amenity_ru>Wi-Fi</amenity_ru>
+        <amenity_en>Wi-Fi</amenity_en>
+        <amenity_ar>واي-فاي</amenity_ar>
+        <icon>icons/wifi.png</icon>
+    </amenity>
+
+    <!-- SafetyAndHygiene -->
+    <safety_and_hygiene>
+        <hotel>Отель Азия</hotel>
+        <name_ru>Регулярная дезинфекция</name_ru>
+        <name_en>Regular disinfection</name_en>
+        <name_ar>التعقيم المنتظم</name_ar>
+    </safety_and_hygiene>
+
+    <!-- HotelsImage -->
+    <hotel_image>
+        <hotel>Отель Азия</hotel>
+        <image>hotel_images/room.jpg</image>
+    </hotel_image>
+
+    <!-- Kitchen -->
+    <kitchen>
+        <kitchen_name_ru>Кафе Нават</kitchen_name_ru>
+        <kitchen_name_en>Navat Cafe</kitchen_name_en>
+        <kitchen_name_ar>مقهى نافات</kitchen_name_ar>
+        <description_ru>Кафе Нават предлагает аутентичную кыргызскую кухню, приготовленную по традиционным рецептам. Гостей ждут блюда из свежих местных продуктов, уютная атмосфера и внимательное обслуживание. Расположенное в самом сердце Бишкека, кафе идеально подходит для семейных ужинов, деловых встреч или знакомства с культурой Кыргызстана.</description_ru>
+        <description_en>Navat Cafe offers authentic Kyrgyz cuisine prepared according to traditional recipes. Guests can enjoy dishes made from fresh local ingredients, a cozy atmosphere, and attentive service. Located in the heart of Bishkek, the cafe is perfect for family dinners, business meetings, or exploring Kyrgyz culture.</description_en>
+        <description_ar>مقهى نافات يقدم المأكولات القيرغيزية الأصيلة المعدة وفقًا للوصفات التقليدية. يمكن للضيوف الاستمتاع بالأطباق المصنوعة من مكونات محلية طازجة، وأجواء مريحة، وخدمة متميزة. يقع المقهى في قلب بيشكيك، وهو مثالي لتناول العشاء العائلي، والاجتماعات التجارية، أو استكشاف الثقافة القيرغيزية.</description_ar>
+        <specialized_menu_ru>Подходит для вегетарианцев</specialized_menu_ru>
+        <specialized_menu_en>Suitable for vegetarians</specialized_menu_en>
+        <specialized_menu_ar>مناسب للنباتيين</specialized_menu_ar>
+        <main_image>main_image/navat.jpg</main_image>
+        <kitchen_region>Chui</kitchen_region>
+        <popular_places>Площадь Ала-Тоо</popular_places>
+        <price>1000</price>
+        <meal_time>Breakfast,Lunch,Dinner</meal_time>
+        <type_of_cafe>Asian</type_of_cafe>
+    </kitchen>
+
+    <!-- KitchenLocation -->
+    <kitchen_location>
+        <kitchen>Кафе Нават</kitchen>
+        <address_ru>ул. Советская, 45</address_ru>
+        <address_en>Soviet St, 45</address_en>
+        <address_ar>شارع السوفيت، 45</address_ar>
+        <website>https://navat.kg</website>
+        <email>info@navat.kg</email>
+        <phone_number>+996123456789</phone_number>
+        <longitude>74.5699</longitude>
+        <latitude>42.8747</latitude>
+    </kitchen_location>
+
+    <!-- KitchenImage -->
+    <kitchen_image>
+        <kitchen>Кафе Нават</kitchen>
+        <image>kitchen_images/interior.jpg</image>
+    </kitchen_image>
+
+    <!-- EventCategories -->
+    <event_category>
+        <category>Concert</category>
+    </event_category>
+
+    <!-- Event -->
+    <event>
+        <category>Concert</category>
+        <image>event_images/concert.jpg</image>
+        <popular_places>Площадь Ала-Тоо</popular_places>
+        <title>Концерт народной музыки</title>
+        <date>2025-05-01</date>
+        <time>18:00:00</time>
+        <address>Площадь Ала-Тоо</address>
+        <price>500</price>
+        <ticket>true</ticket>
+    </event>
+
+    <!-- Ticket -->
+    <ticket>
+        <concert>Concert</concert>
+        <image>event_images/ticket.jpg</image>
+        <title>Билет на концерт</title>
+        <date>2025-05-01</date>
+        <time>18:00:00</time>
+        <address>Площадь Ала-Тоо</address>
+        <price>500</price>
+    </ticket>
+
+    <!-- CultureCategory -->
+    <culture_category>
+        <culture_name>National clothes</culture_name>
+    </culture_category>
+
+    <!-- Culture -->
+    <culture>
+        <culture_name_ru>Кыргызская национальная одежда</culture_name_ru>
+        <culture_name_en>Kyrgyz national clothing</culture_name_en>
+        <culture_name_ar>الملابس الوطنية القيرغيزية</culture_name_ar>
+        <culture_description_ru>Кыргызская национальная одежда, такая как чапан, отражает богатую историю и традиции народа. Эти костюмы изготавливаются из натуральных тканей и украшаются уникальными узорами, символизирующими природу и кочевой образ жизни. Они используются в торжественных мероприятиях и повседневной жизни.</culture_description_ru>
+        <culture_description_en>Kyrgyz national clothing, such as the chapan, reflects the rich history and traditions of the people. These garments are made from natural fabrics and adorned with unique patterns symbolizing nature and nomadic life. They are worn for ceremonial events and daily life.</culture_description_en>
+        <culture_description_ar>الملابس الوطنية القيرغيزية، مثل الشابان، تعكس التاريخ الغني وتقاليد الشعب. تُصنع هذه الملابس من الأقمشة الطبيعية وتُزين بأنماط فريدة ترمز إلى الطبيعة وأسلوب الحياة البدوي. تُستخدم في المناسبات الاحتفالية والحياة اليومية.</culture_description_ar>
+        <culture_image>culture_images/chapan.jpg</culture_image>
+        <culture>National clothes</culture>
+    </culture>
+
+    <!-- Games -->
+    <game>
+        <games_name_ru>Кок-бору</games_name_ru>
+        <games_name_en>Kok-boru</games_name_en>
+        <games_name_ar>كوك-بورو</games_name_ar>
+        <games_description_ru>Кок-бору — традиционная кыргызская конная игра, в которой команды соревнуются за тушу козла, пытаясь забросить её в ворота соперника. Эта динамичная игра демонстрирует силу, ловкость и мастерство всадников, а также является важной частью кыргызской культуры.</games_description_ru>
+        <games_description_en>Kok-boru is a traditional Kyrgyz horseback game where teams compete to grab a goat carcass and throw it into the opponent’s goal. This dynamic game showcases the strength, agility, and skill of the riders and is a vital part of Kyrgyz culture.</games_description_en>
+        <games_description_ar>كوك-بورو هي لعبة تقليدية قيرغيزية على ظهور الخيل حيث تتنافس الفرق لانتزاع جثة ماعز وإلقائها في مرمى الخصم. تعرض هذه اللعبة الديناميكية القوة والرشاقة ومهارة الفرسان، وهي جزء حيوي من الثقافة القيرغيزية.</games_description_ar>
+        <games_image>games_images/kok_boru.jpg</games_image>
+        <culture>Games</culture>
+    </game>
+
+    <!-- NationalClothes -->
+    <national_clothes>
+        <clothes_name_ru>Чапан</clothes_name_ru>
+        <clothes_name_en>Chapan</clothes_name_en>
+        <clothes_name_ar>شابان</clothes_name_ar>
+        <clothes_description_ru>Чапан — традиционный кыргызский халат, символизирующий тепло и гостеприимство. Изготавливается из шерсти или хлопка, часто украшается яркими вышивками. Чапаны носят как в повседневной жизни, так и на праздниках, подчёркивая связь с кочевыми традициями.</clothes_description_ru>
+        <clothes_description_en>The chapan is a traditional Kyrgyz robe symbolizing warmth and hospitality. Made from wool or cotton, it is often decorated with vibrant embroidery. Chapans are worn in daily life and at celebrations, highlighting the connection to nomadic traditions.</clothes_description_en>
+        <clothes_description_ar>الشابان هو رداء تقليدي قيرغيزي يرمز إلى الدفء والضيافة. يُصنع من الصوف أو القطن، وغالبًا ما يُزين بتطريزات نابضة بالحياة. يُرتدى الشابان في الحياة اليومية والاحتفالات، مما يبرز الارتباط بالتقاليد البدوية.</clothes_description_ar>
+        <clothes_image>clothes_images/chapan.jpg</clothes_image>
+        <culture>National clothes</culture>
+    </national_clothes>
+
+    <!-- HandCrafts -->
+    <hand_craft>
+        <hand_name_ru>Шырдак</hand_name_ru>
+        <hand_name_en>Shyrdak</hand_name_en>
+        <hand_name_ar>شيرداك</hand_name_ar>
+        <hand_description_ru>Шырдак — традиционный кыргызский войлочный ковёр, создаваемый вручную с использованием древних техник. Каждый шырдак украшен уникальными узорами, отражающими природу и культуру Кыргызстана. Эти ковры используются в юртах и домах, добавляя тепло и красоту интерьеру.</hand_description_ru>
+        <hand_description_en>Shyrdak is a traditional Kyrgyz felt carpet, handcrafted using ancient techniques. Each shyrdak is adorned with unique patterns reflecting Kyrgyzstan’s nature and culture. These carpets are used in yurts and homes, adding warmth and beauty to interiors.</hand_description_en>
+        <hand_description_ar>شيرداك هو سجادة لباد تقليدية قيرغيزية، تُصنع يدويًا باستخدام تقنيات قديمة. كل شيرداك مزين بأنماط فريدة تعكس طبيعة وثقافة قيرغيزستان. تُستخدم هذه السجادات في الخيام والمنازل، مضيفة الدفء والجمال للديكورات الداخلية.</hand_description_ar>
+        <hand_image>hand_images/shyrdak.jpg</hand_image>
+        <culture>Hand crafts</culture>
+    </hand_craft>
+
+    <!-- Currency -->
+    <currency>
+        <currency_name_ru>Кыргызский сом</currency_name_ru>
+        <currency_name_en>Kyrgyz som</currency_name_en>
+        <currency_name_ar>سوم قيرغيزي</currency_name_ar>
+        <culture>Currency</culture>
+    </currency>
+
+    <!-- Currency_Description -->
+    <currency_description>
+        <currency>Кыргызский сом</currency>
+        <description_ru>Кыргызский сом — официальная валюта Кыргызстана, введённая в 1993 году после обретения независимости. Название «сом» отражает древнюю денежную единицу региона. Валюта используется во всех сферах экономики и украшена изображениями исторических личностей и природных достопримечательностей.</description_ru>
+        <description_en>The Kyrgyz som is the official currency of Kyrgyzstan, introduced in 1993 after gaining independence. The name “som” reflects an ancient monetary unit of the region. The currency is used in all economic sectors and features images of historical figures and natural landmarks.</description_en>
+        <description_ar>السوم القيرغيزي هو العملة الرسمية لقيرغيزستان، تم إدخاله في عام 1993 بعد الحصول على الاستقلال. يعكس اسم "سوم" وحدة نقدية قديمة في المنطقة. تُستخدم العملة في جميع القطاعات الاقتصادية وتتميز بصور شخصيات تاريخية ومعالم طبيعية.</description_ar>
+    </currency_description>
+
+    <!-- Currency_Image -->
+    <currency_image>
+        <currency>Кыргызский сом</currency>
+        <front_image>front_image_currency/som_front.jpg</front_image>
+        <back_image>back_image_currency/som_back.jpg</back_image>
+    </currency_image>
+
+    <!-- NationalInstruments -->
+    <national_instrument>
+        <national_name_ru>Комыз</national_name_ru>
+        <national_name_en>Komyz</national_name_en>
+        <national_name_ar>كوميز</national_name_ar>
+        <national_description_ru>Комыз — традиционный кыргызский струнный инструмент, используемый в народной музыке. Его звук передаёт мелодии кочевой жизни, вдохновлённые природой. Комыз изготавливается из дерева и струн, а его игра требует мастерства и передаётся из поколения в поколение.</national_description_ru>
+        <national_description_en>Komyz is a traditional Kyrgyz string instrument used in folk music. Its sound conveys melodies of nomadic life, inspired by nature. The komyz is made of wood and strings, and playing it requires skill, passed down through generations.</national_description_en>
+        <national_description_ar>كوميز هو آلة وترية تقليدية قيرغيزية تُستخدم في الموسيقى الشعبية. ينقل صوتها ألحان الحياة البدوية، مستوحاة من الطبيعة. تُصنع الكوميز من الخشب والأوتار، وتتطلب العزف عليها مهارة تُورث عبر الأجيال.</national_description_ar>
+        <national_image>national_images/komyz.jpg</national_image>
+        <culture>National instruments</culture>
+    </national_instrument>
+
+    <!-- CultureKitchen -->
+    <culture_kitchen>
+        <kitchen_name_ru>Курут</kitchen_name_ru>
+        <kitchen_name_en>Kurut</kitchen_name_en>
+        <kitchen_name_ar>كوروت</kitchen_name_ar>
+        <kitchen_description_ru>Курут — это сушёные сырные шарики, популярный кыргызский продукт, который ценится за свою питательность и длительный срок хранения. Его готовят из ферментированного молока, а вкус варьируется от солёного до слегка кислого. Курут часто берут в походы или используют как закуску.</kitchen_description_ru>
+        <kitchen_description_en>Kurut is dried cheese balls, a popular Kyrgyz product valued for its nutrition and long shelf life. Made from fermented milk, its taste ranges from salty to slightly sour. Kurut is often taken on hikes or used as a snack.</kitchen_description_en>
+        <kitchen_description_ar>كوروت هي كرات جبن مجففة، منتج قيرغيزي شهير يُقدَّر لقيمته الغذائية وفترة صلاحيته الطويلة. تُصنع من الحليب المخمر، ويتراوح طعمها بين المالح والحامض قليلاً. غالبًا ما يُؤخذ الكوروت في الرحلات أو يُستخدم كوجبة خفيفة.</kitchen_description_ar>
+        <culture>Kitchen</culture>
+    </culture_kitchen>
+
+    <!-- CultureKitchenImage -->
+    <culture_kitchen_image>
+        <culture_kitchen>Курут</culture_kitchen>
+        <image>culture_kitchen_image/kurut.jpg</image>
+    </culture_kitchen_image>
+
+    <!-- CultureKitchenMain -->
+    <culture_kitchen_main>
+        <title_ru>Кыргызская кухня</title_ru>
+        <title_en>Kyrgyz cuisine</title_en>
+        <title_ar>المطبخ القيرغيزي</title_ar>
+        <description_ru>Кыргызская кухня богата мясными блюдами и молочными продуктами, отражающими кочевой образ жизни. Такие блюда, как бешбармак и курут, готовятся из натуральных ингредиентов и передают вкус традиций. Кухня Кыргызстана — это не только еда, но и часть культурного наследия, объединяющая людей за общим столом.</description_ru>
+        <description_en>Kyrgyz cuisine is rich in meat dishes and dairy products, reflecting a nomadic lifestyle. Dishes like beshbarmak and kurut are made from natural ingredients and convey the taste of tradition. Kyrgyz cuisine is not just food but a part of cultural heritage, bringing people together at the table.</description_en>
+        <description_ar>المطبخ القيرغيزي غني بالأطباق اللحمية والمنتجات الألبانية، مما يعكس أسلوب الحياة البدوي. تُعد أطباق مثل بيشبارماك وكوروت من مكونات طبيعية وتنقل طعم التقاليد. المطبخ القيرغيزي ليس مجرد طعام بل جزء من التراث الثقافي، يجمع الناس حول المائدة.</description_ar>
+        <culture>Kitchen</culture>
+        <image_1>culture_kitchen_image/dish1.jpg</image_1>
+        <image_2>culture_kitchen_image/dish2.jpg</image_2>
+        <image_3>culture_kitchen_image/dish3.jpg</image_3>
+        <image_4>culture_kitchen_image/dish4.jpg</image_4>
+    </culture_kitchen_main>
+
+    <!-- AirLineTickets -->
+    <airline_ticket>
+        <name_ru>Кыргыз Эйр</name_ru>
+        <name_en>Kyrgyz Air</name_en>
+        <name_ar>قيرغيز إير</name_ar>
+        <description_ru>Кыргыз Эйр — национальная авиакомпания Кыргызстана, предлагающая надёжные и комфортные перелёты. С фокусом на безопасность и качество обслуживания, она соединяет Бишкек с международными направлениями, такими как Стамбул, способствуя развитию туризма и деловых связей.</description_ru>
+        <description_en>Kyrgyz Air is the national airline of Kyrgyzstan, offering reliable and comfortable flights. With a focus on safety and quality service, it connects Bishkek to international destinations like Istanbul, promoting tourism and business ties.</description_en>
+        <description_ar>قيرغيز إير هي الخطوط الجوية الوطنية لقيرغيزستان، تقدم رحلات موثوقة ومريحة. مع التركيز على السلامة وجودة الخدمة، تربط بيشكيك بوجهات دولية مثل إسطنبول، مما يعزز السياحة والروابط التجارية.</description_ar>
+        <logo>airline_logos/kyrgyz_air.jpg</logo>
+        <website>https://kyrgyzair.kg</website>
+    </airline_ticket>
+
+    <!-- AirLineDirections -->
+    <airline_direction>
+        <ticket>Кыргыз Эйр</ticket>
+        <directions_ru>Бишкек - Стамбул</directions_ru>
+        <directions_en>Bishkek - Istanbul</directions_en>
+        <directions_ar>بيشكيك - إسطنبول</directions_ar>
+    </airline_direction>
+
+    <!-- Favorite -->
+    <favorite>
+        <user>user1</user>
+        <attraction>Национальный музей</attraction>
+        <like>true</like>
+        <created_date>2025-04-16</created_date>
+    </favorite>
+</data>
